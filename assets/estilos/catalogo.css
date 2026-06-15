@@ -1,6 +1,12 @@
 body{
    background: linear-gradient(rgb(136, 80, 80), rgb(22, 158, 212));
  font-size: large;
+       font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 .img1{
 width: 300px;
