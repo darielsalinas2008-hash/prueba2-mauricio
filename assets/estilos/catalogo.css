@@ -23,3 +23,6 @@ p{
 tr:nth-child(even){
     background-color: #e4e4e4;
 }
+tr:nth-child(odd){
+    background-color: rgb(255, 226, 226);
+}
