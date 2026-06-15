@@ -1,0 +1,112 @@
+body{
+     /* Linear gradient para el degradado de la pagina */
+     background: linear-gradient(rgb(136, 80, 80), rgb(22, 158, 212));
+     font-size: large;
+     /* Fuente descargada en forms */
+      font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.img1{
+    /* display block margin auto para que se centre */
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+img{
+    /* width para la anchura y height para la altura */
+    width: 300px; 
+height: 300px;
+display: block;
+margin: auto;
+}
+.textop{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    /* Para que se pongan una a la par de la otra */
+    display: inline;
+}
+button :hover{
+    /* Para que cuando pase por encima se ponga de color verde */
+    background-color: rgb(13, 255, 0);
+}
+.inicio{
+    display: flex;
+    justify-content: center;
+}
+
+video{
+    width: 600px;
+    height: 300px;
+    display: block;
+    margin: auto;
+
+}
+audio{
+    display: block;
+    margin: auto;
+}
+#columna{
+    /* Para que el texto se haga en 3 columnas */
+    column-count: 3;
+    column-rule: 3px solid black;
+}
+.titulo{
+    animation-duration: 6s;
+    animation-name: mau;
+   color: lightgray;
+    display: flex;
+  justify-content: center;
+}
+@keyframes mau{
+  from{
+      color: rgb(0, 191, 255);
+  }
+  to{
+    color: white;
+  }
+}
+.img2{
+    width: 300px;
+    height: 300px;
+    transform: rotate(30deg);
+     display: block;
+ margin: auto;
+}
+table{
+overflow-x: auto;
+border-style: dashed;
+}
+tr:nth-child(even){
+    /* Para la tabla, la cebra */
+    background-color: #e4e4e4;
+}
+tr:nth-child(odd){
+    background-color: rgb(255, 226, 226);
+}
+.imagen2{
+     /* Para que la imagen se vea como vieja */
+    filter: sepia(20%);
+        /* para que las imagenes sean circulares */
+    border-radius: 50%;
+    object-fit: cover;
+}
+.tabla1{
+    
+    box-shadow: 5px black;
+    padding: 2px;
+    background-color: rgb(202, 202, 202);
+    margin: 2px;
+}
+.back-img{
+    width: 200px;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes/hawas\ ice.jpg);
+}
