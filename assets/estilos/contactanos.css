@@ -20,6 +20,7 @@ margin: auto;
 }
 li{
     display: inline;
+
 }
 button :hover{
     background-color: rgb(13, 255, 0);

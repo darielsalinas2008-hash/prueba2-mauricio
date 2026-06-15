@@ -30,3 +30,20 @@ audio{
     display: block;
     margin: auto;
 }
+#columna{
+    column-count: 3;
+    
+}
+.titulo{
+    animation-duration: 6s;
+    animation-name: mau;
+   color: lightgray;
+}
+@keyframes mau{
+  from{
+      color: rgb(0, 191, 255);
+  }
+  to{
+    color: white;
+  }
+}
