@@ -9,6 +9,7 @@ body{
     "wdth" 100;
 }
 .img1{
+    /* display block margin auto para que se centre */
     width: 300px;
     height: 300px;
     display: block;
@@ -31,8 +32,9 @@ audio{
     margin: auto;
 }
 #columna{
+    /* Para que el texto se haga en 3 columnas */
     column-count: 3;
-    
+    column-rule: 3px solid black;
 }
 .titulo{
     animation-duration: 6s;
@@ -46,4 +48,11 @@ audio{
   to{
     color: white;
   }
+}
+.img2{
+    width: 300px;
+    height: 300px;
+    transform: rotate(30deg);
+     display: block;
+ margin: auto;
 }
