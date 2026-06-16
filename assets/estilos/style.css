@@ -34,8 +34,7 @@ li{
     display: inline;
 }
 button :hover{
-    /* Para que cuando pase por encima se ponga de color verde */
-    background-color: rgb(13, 255, 0);
+    background-color: green;
 }
 .inicio{
     display: flex;
@@ -64,6 +63,7 @@ audio{
    color: lightgray;
     display: flex;
   justify-content: center;
+  text-shadow: 5px 5px 8px black;
 }
 @keyframes mau{
   from{
@@ -73,6 +73,7 @@ audio{
     color: white;
   }
 }
+
 .img2{
     width: 300px;
     height: 300px;
@@ -81,6 +82,7 @@ audio{
  margin: auto;
 }
 table{
+ border-collapse: collapse;
 overflow-x: auto;
 border-style: dashed;
 }
@@ -100,13 +102,32 @@ tr:nth-child(odd){
 }
 .tabla1{
     
-    box-shadow: 5px black;
+    box-shadow: 5px 5px 8px rgb(255, 189, 189);
     padding: 2px;
     background-color: rgb(202, 202, 202);
     margin: 2px;
+    
 }
 .back-img{
     width: 200px;
-    background-repeat: no-repeat;
-    background-image: url(../imagenes/hawas\ ice.jpg);
+background-image: url(../imagenes/);
 }
+.formulario{
+    animation-name: form;
+    animation-duration: 5s;
+}
+@keyframes form{
+    25%{
+        color: blue;
+    }
+    50%{
+        color: blueviolet;
+    }
+    75%{
+        color: crimson;
+    }
+    100%{
+        color: coral;
+    }
+}
+
